@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <b>A powerful WhatsApp bot with 300+ commands</b><br/>
+  <b>A powerful WhatsApp bot with 303+ commands</b><br/>
   <i>AI • Games • Economy • Islamic • Downloads • Group Management</i>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Commands-300+-blue?style=flat-square" alt="Commands"/>
+  <img src="https://img.shields.io/badge/Commands-303+-blue?style=flat-square" alt="Commands"/>
   <img src="https://img.shields.io/badge/Node.js-18+-green?style=flat-square&logo=node.js" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Baileys-6.7.16-orange?style=flat-square" alt="Baileys"/>
   <img src="https://img.shields.io/badge/License-No_Selling-red?style=flat-square" alt="License"/>
@@ -50,7 +50,7 @@ Edit `config.js` to customize your bot:
 
 ---
 
-## 📋 Features — 300 Commands
+## 📋 Features — 303 Commands
 
 ### 🛡️ Admin `11 commands`
 `admins` · `antibadword` · `antiflood` · `ban` · `kickall` · `members` · `purge` · `setdesc` · `setgrouppp` · `setname` · `whitelist`
@@ -70,8 +70,8 @@ Edit `config.js` to customize your bot:
 ### 🕹️ Games `24 commands`
 `2048` · `Cat` · `Dog` · `Rabbit` · `Slash` · `Slime` · `blackjack` · `charades` · `connect4` · `dungeon` · `emojiguess` · `flagquiz` · `guess` · `hangman` · `mathquiz` · `minesweeper` · `quiz` · `riddle` · `scramble` · `snake` · `tictactoe` · `typingrace` · `wordle` · `wouldyourather`
 
-### 📌 General `10 commands`
-`alive` · `help` · `info` · `menu` · `owner` · `ping` · `repo` · `report` · `stats` · `uptime`
+### 📌 General `11 commands`
+`alive` · `help` · `info` · `menu` · `owner` · `ping` · `repo` · `report` · `stats` · `support` · `uptime`
 
 ### 👥 Group `50 commands`
 `activity` · `add` · `announce` · `anonymous` · `antibot` · `antidelete` · `antiforeign` · `antilink` · `antispam` · `antistatus` · `ar` · `autoreact` · `bizhours` · `chatfilter` · `chatrank` · `del` · `demote` · `gbackup` · `goodbye` · `groupinfo` · `grouplog` · `groupreset` · `grouptransfer` · `hidetag` · `kick` · `leaderboard` · `link` · `list` · `mediaonly` · `mute` · `muteall` · `notes` · `poll` · `promote` · `resetwarn` · `revoke` · `rules` · `setgoodbye` · `seticon` · `setwelcome` · `slowmode` · `tag` · `tagall` · `tempban` · `unmute` · `votekick` · `warn` · `welcome` · `welcome2` · `🆕 Newbie`
@@ -85,8 +85,8 @@ Edit `config.js` to customize your bot:
 ### 📦 Media `10 commands`
 `addtext` · `blur` · `circle` · `deepfry` · `enhance` · `gif` · `grayscale` · `invert` · `pixelate` · `triggered`
 
-### 👑 Owner `20 commands`
-`autoread` · `autostatusview` · `autotyping` · `block` · `broadcast` · `changelog` · `chatbot` · `eval` · `exec` · `feedback` · `fullbackup` · `globalban` · `maintenance` · `premium` · `restart` · `restore` · `setprefix` · `shutdown` · `unblock` · `update`
+### 👑 Owner `22 commands`
+`addsudo` · `autoread` · `autostatusview` · `autotyping` · `block` · `broadcast` · `changelog` · `chatbot` · `eval` · `exec` · `feedback` · `fullbackup` · `globalban` · `maintenance` · `premium` · `private` · `restart` · `restore` · `setprefix` · `shutdown` · `unblock` · `update`
 
 ### 🔍 Search `11 commands`
 `anime` · `animesearch` · `antonym` · `book` · `country` · `detectlang` · `imdb` · `manga` · `recipe` · `synonym` · `urban`
@@ -151,5 +151,5 @@ See [LICENSE](LICENSE) for full details.
 
 <p align="center">
   <b>⚡ PHANTOM BOT v1.2.0</b><br/>
-  <i>300 commands · 14 categories · Powered by Baileys & Gemini AI</i>
+  <i>303 commands · 14 categories · Powered by Baileys & Gemini AI</i>
 </p>
