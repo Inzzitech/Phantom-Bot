@@ -16,7 +16,7 @@ module.exports = {
 
   // paste your api keys here for the ai to work
   GEMINI_API_KEY: process.env.GEMINI_API_KEY || "",
-  GEMINI_MODEL: process.env.GEMINI_MODEL || "gemini-3-flash-preview",
+  GEMINI_MODEL: process.env.GEMINI_MODEL || "gemini-2.0-flash",
   GROK_API_KEY: process.env.GROK_API_KEY || "",
   GROK_MODEL: process.env.GROK_MODEL || "grok-3-mini-fast",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
