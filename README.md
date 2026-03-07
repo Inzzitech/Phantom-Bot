@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/⚡_PHANTOM_BOT-v1.2.0-blueviolet?style=for-the-badge&labelColor=0d1117" alt="Phantom Bot"/>
+  <img src="https://img.shields.io/badge/⚡_PHANTOM_BOT-v2.0.0-blueviolet?style=for-the-badge&labelColor=0d1117" alt="Phantom Bot"/>
 </p>
 
 <p align="center">
-  <b>A powerful WhatsApp bot with 303+ commands</b><br/>
+  <b>A powerful WhatsApp bot with 317+ commands</b><br/>
   <i>AI • Games • Economy • Islamic • Downloads • Group Management</i>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Commands-303+-blue?style=flat-square" alt="Commands"/>
+  <img src="https://img.shields.io/badge/Commands-317+-blue?style=flat-square" alt="Commands"/>
   <img src="https://img.shields.io/badge/Node.js-18+-green?style=flat-square&logo=node.js" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Baileys-6.7.16-orange?style=flat-square" alt="Baileys"/>
   <img src="https://img.shields.io/badge/License-No_Selling-red?style=flat-square" alt="License"/>
@@ -24,7 +24,7 @@ npm install
 
 # 2. Configure
 #    - Get SESSION_ID from the pairing portal
-#    - Set GEMINI_API_KEY for AI features
+#    - Add your AI API keys (Gemini, Claude, GPT, etc.)
 #    - Edit config.js with your values
 
 # 3. Start
@@ -42,21 +42,25 @@ Edit `config.js` to customize your bot:
 | Setting | Description | Required |
 |---------|-------------|----------|
 | `SESSION_ID` | Session token from pairing portal | ✅ |
-| `GEMINI_API_KEY` | Google Gemini API key for AI features | ✅ |
-| `PREFIX` | Command prefix (default: `!`) | ❌ |
+| `GEMINI_API_KEY` | Google Gemini API key | ✅ |
+| `OPENAI_API_KEY` | OpenAI API key (GPT, DALL-E) | ❌ |
+| `CLAUDE_API_KEY` | Anthropic Claude API key | ❌ |
+| `GROK_API_KEY` | xAI Grok API key | ❌ |
+| `PERPLEXITY_API_KEY` | Perplexity AI API key | ❌ |
+| `DEEPSEEK_API_KEY` | DeepSeek API key | ❌ |
+| `TOGETHER_API_KEY` | Together AI key (Llama/Mixtral) | ❌ |
+| `MISTRAL_API_KEY` | Mistral AI API key | ❌ |
 | `REMOVEBG_API_KEY` | Remove.bg API key | ❌ |
+| `PREFIX` | Command prefix (default: `!`) | ❌ |
 | `AUTO_READ` | Auto-read incoming messages | ❌ |
 | `AUTO_TYPING` | Show typing indicator | ❌ |
 
 ---
 
-## 📋 Features — 303 Commands
+## 📋 Features — 317 Commands
 
-### 🛡️ Admin `11 commands`
-`admins` · `antibadword` · `antiflood` · `ban` · `kickall` · `members` · `purge` · `setdesc` · `setgrouppp` · `setname` · `whitelist`
-
-### 🤖 Ai `5 commands`
-`ai` · `gpt` · `imagine` · `removebg` · `translate`
+### 🤖 Ai `17 commands`
+`ai` · `chatgpt` · `claude` · `codellama` · `dalle` · `deepseek` · `gemini` · `gpt` · `grok` · `imagine` · `llama` · `mixtral` · `perplexity` · `removebg` · `sora` · `translate` · `vision`
 
 ### 📥 Download `16 commands`
 `apk` · `facebook` · `img` · `instagram` · `lyrics` · `mediafire` · `mediainfo` · `pinterest` · `play` · `song` · `spotify` · `tiktok` · `twitter` · `video` · `wallpaper` · `ytsearch`
@@ -73,8 +77,8 @@ Edit `config.js` to customize your bot:
 ### 📌 General `11 commands`
 `alive` · `help` · `info` · `menu` · `owner` · `ping` · `repo` · `report` · `stats` · `support` · `uptime`
 
-### 👥 Group `50 commands`
-`activity` · `add` · `announce` · `anonymous` · `antibot` · `antidelete` · `antiforeign` · `antilink` · `antispam` · `antistatus` · `ar` · `autoreact` · `bizhours` · `chatfilter` · `chatrank` · `del` · `demote` · `gbackup` · `goodbye` · `groupinfo` · `grouplog` · `groupreset` · `grouptransfer` · `hidetag` · `kick` · `leaderboard` · `link` · `list` · `mediaonly` · `mute` · `muteall` · `notes` · `poll` · `promote` · `resetwarn` · `revoke` · `rules` · `setgoodbye` · `seticon` · `setwelcome` · `slowmode` · `tag` · `tagall` · `tempban` · `unmute` · `votekick` · `warn` · `welcome` · `welcome2` · `🆕 Newbie`
+### 👥 Group `62 commands`
+`activity` · `add` · `admins` · `announce` · `anonymous` · `antibadword` · `antibot` · `antidelete` · `antiflood` · `antiforeign` · `antilink` · `antispam` · `antistatus` · `ar` · `autoreact` · `ban` · `bizhours` · `chatfilter` · `chatrank` · `del` · `demote` · `gbackup` · `goodbye` · `groupinfo` · `grouplog` · `groupreset` · `grouptransfer` · `hidetag` · `kick` · `kickall` · `leaderboard` · `link` · `list` · `mediaonly` · `members` · `mute` · `muteall` · `notes` · `poll` · `promote` · `purge` · `resetwarn` · `revoke` · `rules` · `setdesc` · `setgoodbye` · `setgrouppp` · `seticon` · `setname` · `setwelcome` · `sgroupadd` · `slowmode` · `tag` · `tagall` · `tempban` · `unmute` · `votekick` · `warn` · `welcome` · `welcome2` · `whitelist` · `🆕 Newbie`
 
 ### 📦 Harm_category_harassment `1 command`
 `autoreply`
@@ -82,7 +86,7 @@ Edit `config.js` to customize your bot:
 ### 🕌 Islamic `27 commands`
 `Adam` · `Mishary Rashid Alafasy` · `Sahih al-Bukhari` · `asmaul` · `dhikr` · `dua` · `duas99` · `fasting` · `fiqh` · `hajj` · `hijri` · `iftar` · `islamicdate` · `islamichistory` · `islamicname` · `islamicquiz` · `juz` · `prayer` · `quran` · `ramadan` · `sadaqah` · `sahih` · `schedule` · `seerah` · `surah` · `tafsir` · `zakat`
 
-### 📦 Media `10 commands`
+### 🎬 Media `10 commands`
 `addtext` · `blur` · `circle` · `deepfry` · `enhance` · `gif` · `grayscale` · `invert` · `pixelate` · `triggered`
 
 ### 👑 Owner `22 commands`
@@ -91,9 +95,8 @@ Edit `config.js` to customize your bot:
 ### 🔍 Search `11 commands`
 `anime` · `animesearch` · `antonym` · `book` · `country` · `detectlang` · `imdb` · `manga` · `recipe` · `synonym` · `urban`
 
-### 🔧 Utility `42 commands`
-`afk` · `afklist` · `avatar` · `base64` · `bmi` · `calc` · `carbon` · `color` · `count` · `crypto` · `currency` · `define` · `diary` · `encode` · `font` · `github` · `hexcolor` · `iplookup` · `mathsolve` · `news` · `ocr` · `password` · `pastebin` · `profile` · `qr` · `qrread` · `reminder` · `shorten` · `speedtest` · `ss` · `sticker` · `timezone` · `todo` · `toimg` · `tp` · `tts` · `unitconvert` · `vcf` · `vv` · `weather` · `whois` · `wiki`
-
+### 🔧 Utility `43 commands`
+`afk` · `afklist` · `avatar` · `base64` · `bmi` · `calc` · `carbon` · `color` · `count` · `crypto` · `currency` · `define` · `diary` · `encode` · `font` · `github` · `hexcolor` · `iplookup` · `mathsolve` · `news` · `ocr` · `password` · `pastebin` · `profile` · `qr` · `qrread` · `reminder` · `shorten` · `speedtest` · `ss` · `sticker` · `timezone` · `todo` · `toimg` · `topdf` · `tp` · `tts` · `unitconvert` · `vcf` · `vv` · `weather` · `whois` · `wiki`
 
 ---
 
@@ -133,6 +136,7 @@ npm start
 |---|---|
 | **Repository** | [github.com/Mujaheed56/Phantom-Bot](https://github.com/Mujaheed56/Phantom-Bot) |
 | **Pairing Portal** | [phantom-session-web.onrender.com](https://phantom-session-web.onrender.com) |
+| **WhatsApp Channel** | [Follow for updates](https://whatsapp.com/channel/0029Vb7luTs4NVirFizIEE2A) |
 
 ---
 
@@ -150,6 +154,6 @@ See [LICENSE](LICENSE) for full details.
 ---
 
 <p align="center">
-  <b>⚡ PHANTOM BOT v1.2.0</b><br/>
-  <i>303 commands · 14 categories · Powered by Baileys & Gemini AI</i>
+  <b>⚡ PHANTOM BOT v2.0.0</b><br/>
+  <i>317 commands · 13 categories · Powered by Phantom</i>
 </p>
