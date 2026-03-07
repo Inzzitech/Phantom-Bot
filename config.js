@@ -32,6 +32,8 @@ module.exports = {
   MISTRAL_API_KEY: process.env.MISTRAL_API_KEY || "",
   MIXTRAL_MODEL: process.env.MIXTRAL_MODEL || "mistral-large-latest",
   REMOVEBG_API_KEY: process.env.REMOVEBG_API_KEY || "",
+  FOOTBALL_API_KEY: process.env.FOOTBALL_API_KEY || "",
+  ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || "",
 
  
   AUTO_READ: process.env.AUTO_READ === "true" || false,
