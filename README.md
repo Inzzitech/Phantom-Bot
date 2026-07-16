@@ -88,6 +88,7 @@
 
 > **A smart, feature-rich WhatsApp bot powered by multiple AI models.**
 > Built for groups, individuals, and automation — with 320+ commands across 14 categories.
+> 🚀 **Active Development:** Phantom Bot is continuously evolving with new commands, AI integrations, and automation features.
 
 <br/>
 
