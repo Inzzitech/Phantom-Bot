@@ -21,32 +21,29 @@ async function main() {
 
     const credsPath = path.resolve(config.SESSION_DIR, "creds.json");
 
-    
-    if (fs.existsSync(credsPath)) {
-      console.log("[Main] Existing session found in sessions/. Using it.");
-      console.log("[Main] (Skipping SESSION_ID decode to preserve updated creds)");
-    } else if (config.SESSION_ID) {
-      
-      console.log("[Main] No session folder found. Decoding SESSION_ID...");
-      const decoded = decodeSession(config.SESSION_ID);
+    // If SESSION_ID is set in config, decode and update creds.json
+    if (config.SESSION_ID && config.SESSION_ID.trim().length > 0) {
+      console.log("[Main] Decoding SESSION_ID from config.js...");
+      const decoded = decodeSession(config.SESSION_ID.trim());
       if (decoded) {
-        console.log("[Main] Session restored from SESSION_ID.");
+        console.log("[Main] Session successfully restored from SESSION_ID.");
       } else {
-        console.warn("[Main] Failed to decode SESSION_ID.");
+        console.warn("[Main] Could not decode SESSION_ID. Checking existing session files...");
       }
+    } else if (fs.existsSync(credsPath)) {
+      console.log("[Main] Found existing session files in sessions/ folder.");
     } else {
-      console.log("[Main] No session and no SESSION_ID.");
-      console.log("[Main] Use the web pairing portal to get a SESSION_ID.");
-      console.log("[Main] Then paste it into config.js and restart.");
+      console.log("[Main] No session found and no SESSION_ID provided in config.js.");
+      console.log("[Main] Please use the web pairing portal to generate a SESSION_ID.");
+      console.log("[Main] Then paste it into config.js and restart the bot.");
       return;
     }
 
-   
     if (fs.existsSync(credsPath)) {
-      console.log("[Main] Credentials found. Connecting bot...");
+      console.log("[Main] Credentials ready. Connecting bot...");
       await startBot();
     } else {
-      console.log("[Main] No credentials found after decode. Check SESSION_ID.");
+      console.log("[Main] No valid credentials found. Check your SESSION_ID in config.js.");
     }
   } catch (err) {
     console.error("[Main] Fatal error:", err);
