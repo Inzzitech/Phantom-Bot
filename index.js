@@ -3,6 +3,19 @@ const { startBot } = require("./lib/connect");
 const { decodeSession } = require("./lib/sessionExport");
 const fs = require("fs");
 const path = require("path");
+const http = require("http");
+
+// Port binding for Web Services (Render, Railway, Koyeb, Heroku)
+const PORT = process.env.PORT || process.env.SERVER_PORT;
+if (PORT) {
+  const server = http.createServer((req, res) => {
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify({ status: "online", bot: config.BOT_NAME, version: config.BOT_VERSION }));
+  });
+  server.listen(PORT, () => {
+    console.log(`[Web] Health check server listening on port ${PORT}`);
+  });
+}
 
 
 console.log(`
