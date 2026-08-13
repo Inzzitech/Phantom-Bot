@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/⚡_PHANTOM_BOT-v2.1.0-blueviolet?style=for-the-badge&labelColor=0d1117" alt="Phantom Bot"/>
+  <img src="https://img.shields.io/badge/⚡_PHANTOM_BOT-v2.2.0-blueviolet?style=for-the-badge&labelColor=0d1117" alt="Phantom Bot"/>
 </p>
 
 <p align="center">
-  <b>A powerful WhatsApp bot with 320+ commands</b><br/>
+  <b>A powerful WhatsApp bot with 328+ commands</b><br/>
   <i>AI • Football • Games • Economy • Islamic • Downloads • Group Management</i>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Commands-320+-blue?style=flat-square" alt="Commands"/>
+  <img src="https://img.shields.io/badge/Commands-328+-blue?style=flat-square" alt="Commands"/>
   <img src="https://img.shields.io/badge/Node.js-18+-green?style=flat-square&logo=node.js" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Baileys-6.7.16-orange?style=flat-square" alt="Baileys"/>
   <img src="https://img.shields.io/badge/License-No_Selling-red?style=flat-square" alt="License"/>
@@ -85,10 +85,10 @@ Edit `config.js` to customize your bot:
 
 ---
 
-## 📋 Features — 320 Commands
+## 📋 Features — 328 Commands
 
 ### 🤖 Ai `17 commands`
-`ai` · `chatgpt` · `claude` · `codellama` · `dalle` · `deepseek` · `gemini` · `gpt` · `grok` · `imagine` · `llama` · `mixtral` · `perplexity` · `removebg` · `sora` · `translate` · `vision`
+`ai` · `chatgpt` · `claude` · `dalle` · `deepseek` · `editimg` · `gemini` · `gpt` · `grok` · `imagine` · `llama` · `mixtral` · `perplexity` · `removebg` · `solve` · `translate` · `vision`
 
 ### 📥 Download `16 commands`
 `apk` · `facebook` · `img` · `instagram` · `lyrics` · `mediafire` · `mediainfo` · `pinterest` · `play` · `song` · `spotify` · `tiktok` · `twitter` · `video` · `wallpaper` · `ytsearch`
@@ -105,11 +105,11 @@ Edit `config.js` to customize your bot:
 ### 🕹️ Games `24 commands`
 `2048` · `Cat` · `Dog` · `Rabbit` · `Slash` · `Slime` · `blackjack` · `charades` · `connect4` · `dungeon` · `emojiguess` · `flagquiz` · `guess` · `hangman` · `mathquiz` · `minesweeper` · `quiz` · `riddle` · `scramble` · `snake` · `tictactoe` · `typingrace` · `wordle` · `wouldyourather`
 
-### 📌 General `11 commands`
-`alive` · `help` · `info` · `menu` · `owner` · `ping` · `repo` · `report` · `stats` · `support` · `uptime`
+### 📌 General `12 commands`
+`alive` · `help` · `info` · `menu` · `owner` · `ping` · `repo` · `report` · `stats` · `store` · `support` · `uptime`
 
-### 👥 Group `64 commands`
-`activity` · `add` · `admins` · `announce` · `anonymous` · `antibadword` · `antibot` · `antidelete` · `antiflood` · `antiforeign` · `antilink` · `antispam` · `antistatus` · `ar` · `autoreact` · `ban` · `bizhours` · `chatfilter` · `chatrank` · `del` · `demote` · `disallow` · `gbackup` · `goodbye` · `groupinfo` · `grouplog` · `groupreset` · `grouptransfer` · `hidetag` · `kick` · `kickall` · `leaderboard` · `link` · `list` · `mediaonly` · `members` · `mute` · `muteall` · `notes` · `pin` · `poll` · `promote` · `purge` · `resetwarn` · `revoke` · `rules` · `setdesc` · `setgoodbye` · `setgrouppp` · `seticon` · `setname` · `setwelcome` · `sgroupadd` · `slowmode` · `tag` · `tagall` · `tempban` · `unmute` · `votekick` · `warn` · `welcome` · `welcome2` · `whitelist` · `🆕 Newbie`
+### 👥 Group `66 commands`
+`activity` · `add` · `admins` · `analytics` · `announce` · `anonymous` · `antibadword` · `antibot` · `antidelete` · `antiflood` · `antiforeign` · `antilink` · `antispam` · `antistatus` · `ar` · `autoreact` · `ban` · `bizhours` · `chatfilter` · `chatrank` · `del` · `demote` · `disallow` · `gbackup` · `goodbye` · `groupinfo` · `grouplog` · `groupreset` · `grouptransfer` · `hidetag` · `kick` · `kickall` · `leaderboard` · `link` · `list` · `mediaonly` · `members` · `modstats` · `mute` · `muteall` · `notes` · `pin` · `poll` · `promote` · `purge` · `recap` · `resetwarn` · `revoke` · `rules` · `setdesc` · `setgoodbye` · `setgrouppp` · `seticon` · `setname` · `setwelcome` · `sgroupadd` · `slowmode` · `tag` · `tagall` · `tempban` · `unmute` · `votekick` · `warn` · `welcome` · `whitelist` · `🆕 Newbie`
 
 ### 📦 Harm_category_harassment `1 command`
 `autoreply`
@@ -120,14 +120,14 @@ Edit `config.js` to customize your bot:
 ### 🎬 Media `10 commands`
 `addtext` · `blur` · `circle` · `deepfry` · `enhance` · `gif` · `grayscale` · `invert` · `pixelate` · `triggered`
 
-### 👑 Owner `22 commands`
-`addsudo` · `autoread` · `autostatusview` · `autotyping` · `block` · `broadcast` · `changelog` · `chatbot` · `eval` · `exec` · `feedback` · `fullbackup` · `globalban` · `maintenance` · `premium` · `private` · `restart` · `restore` · `setprefix` · `shutdown` · `unblock` · `update`
+### 👑 Owner `26 commands`
+`addsudo` · `autoread` · `autostatusview` · `autotyping` · `block` · `broadcast` · `changelog` · `chatbot` · `eval` · `exec` · `feedback` · `fullbackup` · `globalban` · `logmessages` · `maintenance` · `premium` · `private` · `restart` · `restore` · `savestatus` · `setprefix` · `shutdown` · `train` · `unblock` · `update` · `voicebot`
 
 ### 🔍 Search `11 commands`
 `anime` · `animesearch` · `antonym` · `book` · `country` · `detectlang` · `imdb` · `manga` · `recipe` · `synonym` · `urban`
 
-### 🔧 Utility `43 commands`
-`afk` · `afklist` · `avatar` · `base64` · `bmi` · `calc` · `carbon` · `color` · `count` · `crypto` · `currency` · `define` · `diary` · `encode` · `font` · `github` · `hexcolor` · `iplookup` · `mathsolve` · `news` · `ocr` · `password` · `pastebin` · `profile` · `qr` · `qrread` · `reminder` · `shorten` · `speedtest` · `ss` · `sticker` · `timezone` · `todo` · `toimg` · `topdf` · `tp` · `tts` · `unitconvert` · `vcf` · `vv` · `weather` · `whois` · `wiki`
+### 🔧 Utility `44 commands`
+`afk` · `afklist` · `avatar` · `base64` · `bmi` · `calc` · `carbon` · `color` · `count` · `crypto` · `currency` · `define` · `diary` · `encode` · `font` · `github` · `hexcolor` · `iplookup` · `mathsolve` · `news` · `ocr` · `password` · `pastebin` · `profile` · `qr` · `qrread` · `remind` · `schedule` · `shorten` · `speedtest` · `ss` · `sticker` · `timezone` · `todo` · `toimg` · `topdf` · `tp` · `tts` · `unitconvert` · `vcf` · `vv` · `weather` · `whois` · `wiki`
 
 ---
 
@@ -185,6 +185,6 @@ See [LICENSE](LICENSE) for full details.
 ---
 
 <p align="center">
-  <b>⚡ PHANTOM BOT v2.1.0</b><br/>
-  <i>320 commands · 14 categories · Powered by Phantom</i>
+  <b>⚡ PHANTOM BOT v2.2.0</b><br/>
+  <i>328 commands · 14 categories · Powered by Phantom</i>
 </p>
