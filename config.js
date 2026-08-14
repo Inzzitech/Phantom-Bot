@@ -7,7 +7,7 @@ const cleanEnv = (key) => (process.env[key] || "").replace(/[^\x20-\x7E]/g, "").
 const config = {
   BOT_NAME: identity.BOT_NAME,
   BOT_VERSION: identity.BOT_VERSION,
-  OWNER_NUMBER: identity.OWNER_NUMBER,
+  OWNER_NUMBER: cleanEnv("OWNER_NUMBER") || identity.OWNER_NUMBER,
   CHANNEL_LINK: identity.CHANNEL_LINK,
   MENU_IMAGE_URL: identity.MENU_IMAGE_URL,
 
