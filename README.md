@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <b>A powerful WhatsApp bot with 330+ commands</b><br/>
+  <b>A powerful WhatsApp bot with 331+ commands</b><br/>
   <i>AI • Football • Games • Economy • Islamic • Downloads • Converter Suite • Group Management</i>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Commands-330+-blue?style=flat-square" alt="Commands"/>
+  <img src="https://img.shields.io/badge/Commands-331+-blue?style=flat-square" alt="Commands"/>
   <img src="https://img.shields.io/badge/Node.js-18+-green?style=flat-square&logo=node.js" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Baileys-7.0.0--rc13-orange?style=flat-square" alt="Baileys"/>
   <img src="https://img.shields.io/badge/License-No_Selling-red?style=flat-square" alt="License"/>
@@ -75,7 +75,7 @@ Edit `.env` (or `config.js`) to customize your bot:
 
 ---
 
-## 📋 Features — 330 Commands
+## 📋 Features — 331 Commands
 
 ### 🤖 Ai `17 commands`
 `ai` · `chatgpt` · `claude` · `dalle` · `deepseek` · `editimg` · `gemini` · `gpt` · `grok` · `imagine` · `llama` · `mixtral` · `perplexity` · `removebg` · `solve` · `translate` · `vision`
@@ -116,8 +116,8 @@ Edit `.env` (or `config.js`) to customize your bot:
 ### 📦 Other `1 command`
 `video-dl`
 
-### 👑 Owner `26 commands`
-`addsudo` · `autoread` · `autostatusview` · `autotyping` · `block` · `broadcast` · `changelog` · `chatbot` · `eval` · `exec` · `feedback` · `fullbackup` · `globalban` · `logmessages` · `maintenance` · `premium` · `private` · `restart` · `restore` · `savestatus` · `setprefix` · `shutdown` · `train` · `unblock` · `update` · `voicebot`
+### 👑 Owner `27 commands`
+`addsudo` · `anticall` · `autoread` · `autostatusview` · `autotyping` · `block` · `broadcast` · `changelog` · `chatbot` · `eval` · `exec` · `feedback` · `fullbackup` · `globalban` · `logmessages` · `maintenance` · `premium` · `private` · `restart` · `restore` · `savestatus` · `setprefix` · `shutdown` · `train` · `unblock` · `update` · `voicebot`
 
 ### 🔍 Search `11 commands`
 `anime` · `animesearch` · `antonym` · `book` · `country` · `detectlang` · `imdb` · `manga` · `recipe` · `synonym` · `urban`
@@ -182,5 +182,5 @@ See [LICENSE](LICENSE) for full details.
 
 <p align="center">
   <b>⚡ PHANTOM BOT v3.0.0</b><br/>
-  <i>330 commands · 16 categories · Powered by Phantom</i>
+  <i>331 commands · 16 categories · Powered by Phantom</i>
 </p>
