@@ -26,6 +26,8 @@ const config = {
   PERPLEXITY_MODEL: process.env.PERPLEXITY_MODEL || "sonar-reasoning",
   DEEPSEEK_API_KEY: cleanEnv("DEEPSEEK_API_KEY"),
   DEEPSEEK_MODEL: process.env.DEEPSEEK_MODEL || "deepseek-v4-pro",
+  OPENROUTER_API_KEY: cleanEnv("OPENROUTER_API_KEY"),
+  OPENROUTER_MODEL: process.env.OPENROUTER_MODEL || "meta-llama/llama-3.3-70b-instruct:free",
   TOGETHER_API_KEY: cleanEnv("TOGETHER_API_KEY"),
   LLAMA_MODEL: process.env.LLAMA_MODEL || "meta-llama/Llama-3.3-70B-Instruct-Turbo",
   MISTRAL_API_KEY: cleanEnv("MISTRAL_API_KEY"),
