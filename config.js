@@ -15,7 +15,7 @@ const config = {
   SESSION_ID: cleanEnv("SESSION_ID"),
 
   GEMINI_API_KEY: cleanEnv("GEMINI_API_KEY"),
-  GEMINI_MODEL: process.env.GEMINI_MODEL || "gemini-3.7-flash",
+  GEMINI_MODEL: process.env.GEMINI_MODEL || "gemini-3.6-flash",
   GROK_API_KEY: cleanEnv("GROK_API_KEY"),
   GROK_MODEL: process.env.GROK_MODEL || "grok-4.6",
   OPENAI_API_KEY: cleanEnv("OPENAI_API_KEY"),
